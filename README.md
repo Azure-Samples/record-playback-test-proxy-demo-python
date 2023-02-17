@@ -1,3 +1,7 @@
+This project is a Python demo that pairs with an [Azure
+SDK blog post](https://aka.ms/azsdk/test-proxy) about reducing cloud testing costs.
+=
+
 Testing is a crucial step in the software development process, including software deployed to the cloud. Testing software against a live cloud service like Azure can be costly, since services must be provisioned and maintained in order to run the tests.
 
 The Azure SDK team has developed a lightweight test proxy that allows us to record app interactions with Azure and play them back on demand, significantly reducing our testing costs. We’re now excited to share this tool with the broader Azure development community and invite you to try it out for yourself.
@@ -51,9 +55,6 @@ python cosmosdb_tables_example.py
 ```
 
 The included recording file is provided for illustration purposes only, it can't be used to play back the test since the resources associated with it no longer exist in Azure.
-
-This project is intended to be a demo that goes with the following [Azure
-SDK blog post](https://devblogs.microsoft.com/azure-sdk/level-up-your-cloud-testing-game-with-the-azure-sdk-test-proxy/)
 
 The test proxy is compatible with all four major languages and can be
 easily installed using the standard dotnet tool installation process as
